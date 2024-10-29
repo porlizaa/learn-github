@@ -1,0 +1,142 @@
+
+.c1{
+     background-color: #9FE2BF;
+     color: black;
+}
+.m1{
+     margin-top: 10px;
+}
+.f1{
+     color:#4535C1;
+}
+.border1{
+     border: 1px solid #000000;
+}
+table{
+    border: 2px solid #FF4191 ;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: #FF4191;
+    color: aliceblue;
+    padding: 10px 15px;
+}
+td{
+    padding: 10px 15px;
+    border: 2px solid #FF4191;
+    text-align: center;
+}
+a.b1:link,a.b1:visited{
+     background-color:#00712D;
+     color:#ffffff;
+     text-decoration:none;
+     padding:15px 20px 15px 20px; /*บน ขวา ล่าง ซ้าย*/
+     display:block; /*block หรือ inline-block*/
+     margin-bottom:10px;
+ }
+a.b1:hover{
+     background-color:#ffffff;
+     color:#00712D;
+ }
+ 
+a.b2:link,a.b2:visited{
+     background-color:#800000;
+     color:#ffffff;
+     text-decoration:none;
+     padding:15px 20px 15px 20px; /*บน ขวา ล่าง ซ้าย*/
+     display:block; /*block หรือ inline-block*/
+     margin-bottom:10px;
+ }
+a.b2:hover{
+     background-color:#ffffff;
+     color:#800000;
+}
+ 
+.heading1{
+     background-color:#ff7863;
+     color:#ffffff;
+     padding:15px 20px 15px 20px; 
+     display:block; /*block หรือ inline-block*/
+     margin-bottom:10px;
+ }
+ 
+.pic-bg{
+     background-image: url("img/01.png");/*กำหนดภาพเป็นพื้นหลัง*/
+ }
+ 
+.body{
+     background-image: url("img/mt.png");
+     background-repeat: no-repeat; /*ไม่ให้นำภาพมาเรียงต่อกัน*/
+     background-attachment: fixed; /*ไม่ให้ย่อหรือขยายตามขนาด browser*/
+     background-size: cover; /*กำหนดให้ภาพเต็มพื้นที่*/        
+ }
+ol{
+     background-color: #131842;
+     color: #EEEEEE;
+ }
+ol li{
+     background-color: #5A72A0;
+     color: #EEEEEE;
+ }
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+   }
+   
+   ul li {
+     float: left;
+   }
+   
+   ul li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   ul li a:hover {
+     background-color: #111;
+   }
+dl dt{
+     background-color: #5A72A0;
+     color: #EEEEEE;
+}
+dd{
+     background-color: #83B4FF;
+     color: #EEEEEE;
+}
+input[type=text],input[type=number],input[type=file],input[type=password],textarea, select {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
+   
+   input[type=submit] {
+     width: 100%;
+     background-color: #4CAF50;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+   
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
+   
+   .divrow {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+   }
